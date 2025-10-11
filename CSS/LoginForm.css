@@ -9,7 +9,7 @@ body::before {
     z-index: -1;
     background: url('../IMAGENS/bg-login.png') no-repeat center center fixed;
     background-size: cover;
-    opacity: 0.13; /* ajuste conforme necessário */
+    opacity: 0.13;
     pointer-events: none;
 }
 
@@ -17,16 +17,16 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 85vh; /* Igual ao CadastroForm */
     padding: 0;
 }
 
 .login-form {
-    background: var(--branco);
+    background: var(--branco); /* Igual ao CadastroForm */
     padding: 40px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-    min-width: 320px;
+    min-width: 340px; /* Igual ao CadastroForm */
 }
 
 .login-form h2 {
@@ -59,6 +59,27 @@ body::before {
 
 .login-form .btn {
     width: 100%;
+    border: none;
+    outline: none; 
+}
+
+section {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18), 0 1.5px 4px rgba(0,0,0,0.12);
+    border-radius: 12px;
+    background: transparent; /* Igual ao CadastroForm */
+}
+
+.login-form .btn,
+.btn {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.12);
+    transition: box-shadow 0.2s;
+    font-size: 1.15rem; /* Aumenta o tamanho da fonte dos botões */
+    font-weight: bold;
+}
+
+.login-form .btn:hover,
+.btn:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .main-footer {

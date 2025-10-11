@@ -14,6 +14,12 @@ body::before {
     pointer-events: none;
 }
 
+section {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18), 0 1.5px 4px rgba(0,0,0,0.12);
+    border-radius: 12px;
+    background: transparent; /* Remova o fundo branco/translúcido */
+}
+
 .cadastro-section {
     display: flex;
     justify-content: center;
@@ -58,21 +64,19 @@ body::before {
     font-size: 1rem;
 }
 
-.cadastro-form .btn {
-    width: 100%;
-    background-color: var(--verde-principal);
-    color: var(--branco);
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
+.cadastro-form .btn,
+.btn {
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.12);
+    transition: box-shadow 0.2s;
+    font-size: 1.15rem; /* Aumenta o tamanho da fonte dos botões */
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    border: none;       /* Remove a borda */
+    outline: none;      /* Remove o contorno ao focar */
 }
 
-.cadastro-form .btn:hover {
-    background-color: #27ae60;
+.cadastro-form .btn:hover,
+.btn:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .login-link {
