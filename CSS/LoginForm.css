@@ -1,0 +1,71 @@
+body {
+    min-height: 100vh;
+    position: relative;
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: url('../IMAGENS/bg-login.png') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.13; /* ajuste conforme necessário */
+    pointer-events: none;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 0;
+}
+
+.login-form {
+    background: var(--branco);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    min-width: 320px;
+}
+
+.login-form h2 {
+    margin-bottom: 2rem;
+}
+
+.login-form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.login-form .form-group:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.login-form label {
+    font-weight: bold;
+    color: var(--azul-escuro);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--cinza-medio);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-form .btn {
+    width: 100%;
+}
+
+.main-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 10;
+}

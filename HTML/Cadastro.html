@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Recicla CP</title>
+    <link rel="stylesheet" href="../CSS/PaginaPrincipal.css">
+    <link rel="stylesheet" href="../CSS/CadastroForm.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="login.html">
+                <img src="../IMAGENS/logo-reciclagem.png" alt="Logo Recicla CP">
+                <span>Recicla CP</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="cadastro-section">
+            <form 
+                action="login.html" 
+                method="get" 
+                class="cadastro-form"
+            >
+                <h2>Crie sua conta</h2>
+                
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+
+                <button type="submit" class="btn">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Projeto desenvolvido por Luan Henrique, Gabriel Riul e José Wynder para a disciplina de Programação Web Front-End - UTFPR-CP.</p>
+    </footer>
+</body>
+</html>

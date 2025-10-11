@@ -1,0 +1,200 @@
+/* Reset básico e fonte */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #222;
+
+/* Container principal */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 32px 40px;
+}
+
+/* Cabeçalho */
+.cabecalho-principal {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+}
+
+.container-foto-perfil {
+    margin: 0;
+}
+
+.foto-perfil {
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+}
+
+.info-cabecalho h1 {
+    margin: 0 0 12px 0;
+    font-size: 2.2em;
+    color: #1a237e;
+}
+
+/* Lista de ícones */
+.lista-icones {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.lista-icones li {
+    margin-bottom: 8px;
+    font-size: 1.05em;
+}
+.lista-icones i {
+    color: #1976d2;
+    margin-right: 8px;
+}
+
+/* Seções e títulos */
+section {
+    margin-bottom: 32px;
+}
+h2 {
+    color: #1976d2;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+    border-left: 4px solid #1976d2;
+    padding-left: 10px;
+}
+
+/* Listas gerais */
+ul {
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 6px;
+}
+
+/* Links */
+a {
+    color: #1976d2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.95em;
+    margin: 32px 0 0 0;
+}
+
+/* Imagens ODS */
+img[alt^="ODS"] {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* Seções com margens extras */
+.secao-cursos,
+.secao-habilidades,
+.secao-comportamental,
+.secao-hobbies,
+.secao-experiencia,
+.secao-projetos-voluntarios,
+.secao-links-adicionais {
+    margin-bottom: 24px;
+}
+
+/* Listas flexíveis para hobbies e outras tags */
+.lista-em-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: disc inside;
+}
+.lista-em-tags li {
+    flex: 1 1 220px;
+    margin-bottom: 0;
+}
+
+/* ODS horizontal com legenda embaixo */
+.ods-list {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    margin-bottom: 32px;
+    padding-left: 0;
+    list-style: none;
+}
+.ods-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+.ods-list img {
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+.ods-list .ods-caption,
+.ods-list figcaption {
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+    margin-top: 4px;
+}
+
+/* Tabela de habilidades técnicas (2 colunas, 5 linhas) */
+.habilidades-tabela {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 16px 8px;
+    margin-bottom: 16px;
+}
+.habilidades-tabela td {
+    vertical-align: top;
+    padding: 4px 8px;
+    font-size: 1em;
+    color: #222;
+}
+
+/* Tabela de 3 colunas para cursos/certificados e competências */
+.tabela-tres-colunas {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 24px 8px;
+    margin-bottom: 16px;
+}
+.tabela-tres-colunas td {
+    vertical-align: top;
+    padding: 4px 8px;
+    font-size: 1em;
+    color: #222;
+}
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+.tres-colunas li {
+    margin-bottom: 0;
+}
+
+.tabela-tres-colunas {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 24px 8px;
+    margin-bottom: 16px;
+}
+.tabela-tres-colunas td {
+    vertical-align: top;
+    padding: 4px 8px;
+    font-size: 1em;
+    color: #222;
+}

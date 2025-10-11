@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #2e2e2e;
+}
+
+#nome {
+    font-family: Georgia, serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.titulo-secao {
+    font-style: italic;
+    color: darkred;
+}
+
+a[target="_blank"] {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    font-style: oblique;
+}

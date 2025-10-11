@@ -1,0 +1,133 @@
+/* --- Importando as Fontes do Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+
+/*----variáveis de cor, já declaradas. Posso  resgata-las ao longo do código*/  /* */
+:root { 
+    --cor-fundo: #f4f4f4;
+    --cor-container: #ffffff;
+    --cor-texto: #333333;
+    --cor-destaque: #040c2c;
+    --cor-cinza-claro: #555
+}
+
+/*----Estilos Globais/ Corpo da página */
+body { 
+    font-family: 'Roboto', sans-serif; /* Fonte padrão para o texto*/
+    background-color: var(--cor-fundo); /*ex: chamando a variavel cor de fundo do :root */
+    color: var(--cor-texto);
+    line-height: 1.6; /* Altura da linha*/
+    margin: 0px; /*margem*/
+    padding: 20px; /*espaçamento interno entre o conteúdo de um elemento e sua borda */
+}
+
+/*----Container Principal */
+.container {  /*inicia com "." pois é o nome de uma classe */
+    max-width: 900px; /*Largura máxima do currículo*/
+    margin: 40px auto; /*Centraliza o container na tela*/
+    background-color: var(--cor-container);
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /*Sombra, bem sútil*/
+    border-radius: 8px; /*Bordas arredondadas */
+}
+
+/*----Estilos do Cabeçalho Principal (foto e informações) */
+.cabecalho-principal {
+  display: flex; /* ATIVA O FLEXBOX: Coloca os filhos (imagem e info) lado a lado */
+  justify-content: space-between; /* Distribui o espaço: joga um item para cada ponta */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+  margin-bottom: 40px; /* Adiciona um espaço abaixo do cabeçalho */
+  flex-direction: row-reverse; /* Inverte a ordem dos itens, ou seja, agora a imagem fica à direita */
+}
+
+.info-cabecalho {
+  text-align: right; /* Alinha o texto do bloco de info à direita */
+}
+
+
+.container-foto-perfil { /* Ajuste opcional para a figure não ter margens extras */
+    margin: 0;
+}
+
+/*----Estilos do Cabeçalho*/
+h1 { /*nome*/
+    font-family: 'Montserrat', sans-serif; /*Estilo da fonte */
+    color: var(--cor-destaque);
+    margin-bottom: 10px; /*Espaçamento abaixo do elemnto, cria distância entre o próximo elemento*/
+    margin-top: 50px; /*distanciamento superior*/
+}
+
+figure { /*imagens*/
+    text-align: center;
+    margin: 20px 0;
+}
+
+.foto-perfil { /*classe da foto de perfil */
+    border-radius: 8px;
+    width: 150px;
+    height: auto;  /*faz com que a altura se adapte automaticamente para não distorcer a imagem */
+    margin-top: 50px; /*distanciamento superior*/
+}
+
+ ul { /*lista de contatos*/ /*uso da vírgula: agrupa os dois seletores e os estiliza juntos*/ 
+    list-style: none; /*remove as bolinhas da lista*/
+    padding: 0; /*remove o espaçamento padrão*/
+}
+
+ul li {  /*seleciona todo elemnto li que está dentro de ul*/
+    display: flex; /*organiza icone e texto na mesma linha*/
+    align-items: center;
+    margin-bottom: 8px; /*Espaçamento abaixo do elemnto, cria distância entre o próximo elemento*/
+    color: var(--cor-cinza-claro);
+}
+
+.material-icons { /*icones*/
+    margin-right: 10px; /*espaço entre o icone o texto*/
+    color: var(--cor-destaque);
+}
+
+/*----estilos para os links*/
+a {
+    color: var(--cor-destaque);
+    text-decoration: none; /*remove o sublinhadi padrão*/
+    font-weight: 500; /*intensidade da fonte*/
+}
+
+a:hover { /*condição quando passa o mouse em cima dos links*/
+    text-decoration: underline; /*adicona sublinhado ao passar o mouse*/
+}
+
+/*----estilo das seções*/
+section {
+    margin-top: 30px; /* margem superior*/
+}
+
+h2 { /*subtítulos*/
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-texto);
+    border-bottom: 2px solid var(--cor-destaque); /* traço abaxio dos textos*/
+    padding-bottom: 5px; /*Cria um espaço em branco na parte inferior do elemento*/
+    margin-bottom: 15px; /*Espaçamento abaixo do elemnto*/
+}
+
+.lista-em-tags ul li { /*listas dentro das seções*/
+    background-color: var(--cor-fundo);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block; /*faz os itens ficarem lado a lado*/
+    font-size: 0.9em;
+}
+
+/*----estilo footer*/
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.8em;
+    color: #777;
+}
+
+
+

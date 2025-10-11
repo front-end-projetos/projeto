@@ -1,0 +1,194 @@
+/* --- CONFIGURAÇÕES GLOBAIS E VARIÁVEIS --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap');
+
+:root {
+    --verde-principal: #2ecc71;
+    --azul-escuro: #2c3e50;
+    --cinza-medio: #34495e;
+    --cinza-claro: #ecf0f1;
+    --branco: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--cinza-medio);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--azul-escuro);
+    margin-bottom: 1rem;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* --- CABEÇALHO E NAVEGAÇÃO --- */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--branco);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-bottom: 3px solid var(--verde-principal); /* Barra verde no header */
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo img {
+    height: 40px; /* Diminui o tamanho do logo */
+    margin-right: 10px; /* Espaço entre o logo e o texto */
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--cinza-medio);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: var(--verde-principal);
+}
+
+/* --- SECÇÃO DE INTRODUÇÃO (HERO) --- */
+.hero-section {
+    position: relative;
+    padding: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    filter: brightness(80%); /* Escurece a imagem para melhorar a legibilidade do texto */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+/* --- SECÇÃO GUIA DE CORES --- */
+.guide-section {
+    background-color: var(--cinza-claro);
+}
+
+.guide-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Permite que os itens quebrem para a linha de baixo em telas menores */
+    margin-top: 40px;
+}
+
+.guide-card {
+    background-color: var(--branco);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 200px;
+}
+
+.guide-card img {
+    border-radius: 8px;
+    width: 100%; /* Faz a imagem ocupar a largura do card */
+}
+
+.guide-card ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* --- SECÇÃO DICAS PRÁTICAS --- */
+.dicas-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.dicas-card {
+    background-color: var(--cinza-claro);
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px; /* Diminuí um pouco a largura para caberem 3 lado a lado */
+    display: flex; /* Adicionado para melhor alinhamento interno */
+    flex-direction: column; /* Adicionado para alinhar itens verticalmente */
+    align-items: center; /* Adicionado para centralizar */
+}
+
+.dicas-card .material-icons {
+    font-size: 48px;
+    color: var(--verde-principal);
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--verde-principal);
+    color: var(--branco);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #27ae60; /* Um verde um pouco mais escuro */
+}
+
+/* --- RODAPÉ --- */
+.main-footer {
+    background-color: var(--azul-escuro);
+    color: var(--cinza-claro);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: var(--branco);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
