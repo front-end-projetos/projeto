@@ -147,6 +147,8 @@ section {
 .guide-card img {
     border-radius: 8px;
     width: 100%; /* Faz a imagem ocupar a largura do card */
+    height: 200px;
+    object-fit: cover;
 }
 
 .guide-card ul {
