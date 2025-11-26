@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Recicla CP</title>
+    <link rel="stylesheet" href="CSS/PaginaPrincipal.css">
+    <link rel="stylesheet" href="CSS/admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="paginaprincipal.html">
+                <img src="IMAGENS/logo-reciclagem.png" alt="Logo Recicla CP">
+                <span>Recicla CP</span>
+            </a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="paginaprincipal.html">Início</a></li>
+                <li><a href="admin.html" class="active">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="admin-section">
+            <div class="admin-block">
+                <h2>Gerenciamento de Usuários</h2>
+                <form id="userForm">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="btn">Cadastrar</button>
+                        <button type="button" id="clearForm" class="btn">Limpar Campos</button>
+                        <button type="button" id="deleteAll" class="btn">Excluir Todos</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="admin-block">
+                <div class="form-group">
+                    <label for="search">Pesquisar:</label>
+                    <input type="text" id="search" placeholder="Digite nome ou e-mail">
+                </div>
+                <ul id="userList"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Projeto desenvolvido por Luan Henrique, Gabriel Riul e José Wynder para a disciplina de Programação Web Front-End - UTFPR-CP.</p>
+        <div class="footer-links">
+            <a href="CURRICULOS/curriculo-luan/Curriculo_HTML/CurriculumComCSS.html" target="_blank">Currículo de Luan</a>
+            <a href="CURRICULOS/curriculo-gabriel/HTML/CurriculumVitae_ComCSS-GabrielRiul.html" target="_blank">Currículo de Gabriel</a>
+            <a href="CURRICULOS/curriculo-jose/index.html" target="_blank">Currículo de José Wynder</a>
+        </div>
+    </footer>
+
+    <script src="JS/admin.js"></script>
+</body>
+</html>
