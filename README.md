@@ -52,5 +52,5 @@ Nesta etapa, foi implementada uma **Área Administrativa (`admin.html`)** totalm
 |              Autores                |    RA    |                      Profile                       |
 |-------------------------------------|----------|----------------------------------------------------|
 | José Wynder Alves Hernandes         | 2649780  | [@JoseWynder](https://github.com/JoseWynder)       |
-| Luan Henrique de Almeida dos Santos | 2649799  | [@luanalmdeida7](https://github.com/luanalmdeida7) |
+| Luan Henrique de Almeida dos Santos | 2649799  | [@luanalmdeida7](https://github.com/luanalmeida7)  |
 | Gabriel Riul Perisse                | 2064430  | [@gabrielriul](https://github.com/gabrielriul)     |
