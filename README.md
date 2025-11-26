@@ -7,7 +7,6 @@ Website educativo e sistema de gestão desenvolvido para as disciplinas de **Pro
 O projeto evoluiu de um site estático (Projeto 1) para uma **Aplicação Web Dinâmica** (Projeto 2), integrando funcionalidades de cadastro e gestão de dados locais, mantendo o foco na conscientização sobre **reciclagem e consumo responsável** (ODS 12).
 
   - **Acesse o projeto:** [Recicla CP](https://front-end-projetos.github.io/projeto/)
-- **Vídeo de Apresentação:** [Link para o Vídeo no YouTube/Drive]
 
 ---
 
@@ -50,6 +49,8 @@ Nesta etapa, foi implementada uma **Área Administrativa (`admin.html`)** totalm
 
 ## 👥 Integrantes
 
-- José Wynder Alves Hernandes
-- Luan Henrique de Almeida dos Santos
-- Gabriel Riul Perisse
+|              Autores                |    RA    |                      Profile                       |
+|-------------------------------------|----------|----------------------------------------------------|
+| José Wynder Alves Hernandes         | 2649780  | [@JoseWynder](https://github.com/JoseWynder)       |
+| Luan Henrique de Almeida dos Santos | 2649799  | [@luanalmdeida7](https://github.com/luanalmdeida7) |
+| Gabriel Riul Perisse                | 2064430  | [@gabrielriul](https://github.com/gabrielriul)     |
