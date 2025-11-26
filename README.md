@@ -1,33 +1,55 @@
 # Recicla CP 🌱
 
-[![Projeto Concluído](https://img.shields.io/badge/status-concluído-green)](https://front-end-projetos.github.io/projeto-1/)
+[![Status](https://img.shields.io/badge/Versão-2.0-blue)](https://front-end-projetos.github.io/projeto-1/)
+[![JavaScript](https://img.shields.io/badge/Code-JavaScript-yellow)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-Website educativo desenvolvido como Projeto 1 da disciplina de **Programação Web Front-End (UTFPR-CP)**, voltado à conscientização sobre **reciclagem e consumo responsável**.  
-O projeto busca promover práticas sustentáveis, mostrando a importância de reduzir o desperdício e utilizar os recursos de forma eficiente, alinhado ao **ODS 12**.
+Website educativo e sistema de gestão desenvolvido para as disciplinas de **Programação Web Front-End (UTFPR-CP)**.
+O projeto evoluiu de um site estático (Projeto 1) para uma **Aplicação Web Dinâmica** (Projeto 2), integrando funcionalidades de cadastro e gestão de dados locais, mantendo o foco na conscientização sobre **reciclagem e consumo responsável** (ODS 12).
+
 - **Acesse o projeto:** [Recicla CP](https://front-end-projetos.github.io/projeto-1/)
+- **Vídeo de Apresentação:** [Link para o Vídeo no YouTube/Drive]
 
 ---
 
-## Funcionalidades
+## 🚀 Novas Funcionalidades (Projeto 2 - JavaScript)
 
-- **Página de Cadastro:** formulário com 5 campos (nome, cidade, telefone, e-mail e senha) e um botão que redireciona para o login.  
-- **Página de Login:** formulário com e-mail e senha, permitindo que o usuário clique no botão de login para acessar a página principal ou, se ainda não tiver cadastro, ele possa voltar para o cadastro.
-- **Página Principal:** mostra o conteúdo educativo e informativo sobre reciclagem e consumo responsável, contribuindo para a conscientização ambiental.
-- **Currículos:** cada integrante tem o currículo disponível como link no rodapé da página principal.
+Nesta etapa, foi implementada uma **Área Administrativa (`admin.html`)** totalmente funcional utilizando **JavaScript Puro (Vanilla JS)** e **Local Storage**, permitindo:
+
+- **Menu Admin:** Acesso exclusivo através do menu principal na página inicial.
+- **Cadastro de Usuários:** Formulário para inserir Nome e E-mail.
+- **Persistência de Dados:** Os dados são salvos no navegador do usuário (Local Storage) com data de envio automática.
+- **Listagem Dinâmica:** Visualização dos dados cadastrados em tempo real logo abaixo do formulário.
+- **Gestão de Dados:**
+  - **Limpar Campos:** Botão para resetar o formulário.
+  - **Excluir Item:** Botão para remover um usuário específico da lista e da memória.
+  - **Excluir Tudo:** Funcionalidade para limpar toda a lista e o Local Storage.
+- **Sistema de Busca:** Campo de pesquisa que filtra os usuários cadastrados em tempo real.
 
 ---
 
-## Tecnologias
+## 📂 Funcionalidades do Projeto 1 (Layout)
 
-- HTML5  
-- CSS3  
+- **Página de Cadastro:** Layout de formulário com 5 campos e redirecionamento.
+- **Página de Login:** Interface de autenticação simulada.
+- **Página Principal:** Conteúdo educativo sobre reciclagem, calendário de coleta e pontos de entrega (Hero Section, Cards informativos e Dicas).
+- **Responsividade:** Layout adaptável para diferentes tamanhos de tela.
 
-> Projeto front-end, sem frameworks ou JavaScript.
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **HTML5:** Estrutura semântica.
+- **CSS3:** Estilização, Flexbox e variáveis (:root).
+- **JavaScript (ES6+):** Lógica de programação.
+  - **DOM API:** Manipulação dinâmica dos elementos da página.
+  - **Web Storage API:** Armazenamento de dados (Local Storage).
+
+> Projeto desenvolvido sem o uso de frameworks ou bibliotecas externas.
 
 ---
 
 ## 👥 Integrantes
 
-- José Wynder Alves Hernandes  
-- Luan Henrique de Almeida dos Santos  
+- José Wynder Alves Hernandes
+- Luan Henrique de Almeida dos Santos
 - Gabriel Riul Perisse
