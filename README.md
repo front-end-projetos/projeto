@@ -2,7 +2,7 @@
 
 [![Projeto Concluído](https://img.shields.io/badge/status-concluído-green)](https://front-end-projetos.github.io/projeto-1/)
 
-Website educativo desenvolvido como Projeto 1 da disciplina de **Programação Web Front-End (UTFPR-CP)**, voltado à conscientização sobre **reciclagem e consumo responsável**.  
+Website educativo desenvolvido como Projeto da disciplina de **Programação Web Front-End (UTFPR-CP)**, voltado à conscientização sobre **reciclagem e consumo responsável**.  
 O projeto busca promover práticas sustentáveis, mostrando a importância de reduzir o desperdício e utilizar os recursos de forma eficiente, alinhado ao **ODS 12**.
 - **Acesse o projeto:** [Recicla CP](https://front-end-projetos.github.io/projeto-1/)
 
