@@ -72,6 +72,17 @@ main {
     font-family: Lato, sans-serif;
 }
 
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.2s;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18), 0 1px 3px rgba(0,0,0,0.12);
+}
 .delete-btn {
     background-color: #e74c3c;
     color: #fff;
@@ -89,7 +100,17 @@ main {
 #deleteAll {
     background-color: #e74c3c;
     color: #fff;
+    
 }
+
+.btn-verde {
+    background-color: #2ecc71;
+}
+
+.btn-verde:hover {
+    background-color: #27ae60;
+}
+
 
 .main-footer {
     background-color: #2C3E50;
