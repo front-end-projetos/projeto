@@ -6,7 +6,7 @@
 Website educativo e sistema de gestão desenvolvido para as disciplinas de **Programação Web Front-End (UTFPR-CP)**.
 O projeto evoluiu de um site estático (Projeto 1) para uma **Aplicação Web Dinâmica** (Projeto 2), integrando funcionalidades de cadastro e gestão de dados locais, mantendo o foco na conscientização sobre **reciclagem e consumo responsável** (ODS 12).
 
-- **Acesse o projeto:** [Recicla CP](https://front-end-projetos.github.io/projeto-1/)
+  - **Acesse o projeto:** [Recicla CP](https://front-end-projetos.github.io/projeto/)
 - **Vídeo de Apresentação:** [Link para o Vídeo no YouTube/Drive]
 
 ---
