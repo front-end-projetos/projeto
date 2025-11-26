@@ -20,7 +20,8 @@ O projeto busca promover práticas sustentáveis, mostrando a importância de re
 ## Tecnologias
 
 - HTML5  
-- CSS3  
+- CSS3
+- JS
 
 > Projeto front-end, sem frameworks ou JavaScript.
 
